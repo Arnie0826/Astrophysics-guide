@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Фазы планет и спутников</title>
+  <link rel="stylesheet" href="Style/style2.css">
+  <script src="language7.js" defer></script>
+</head>
+<body onload="changeLanguage('ru')">
+  <!-- Header -->
+  <header>
+    <h1 id="page-heading">Фазы планет и спутников</h1>
+  </header>
+  
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button onclick="changeLanguage('kk')">🇰🇿 Қазақша</button>
+    <button onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+    <button onclick="changeLanguage('en')">🇬🇧 English</button>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <p id="phase-intro">
+      <b>Фаза</b> <i>планеты (спутника) — отношение площади</i> освещённой части видимого диска ко всей его площади. Фаза рассчитывается по формуле:
+    </p>
+    
+    <img id="phase-img" src="Image/Screenshot 2023-12-04 at 4.17.16 am.png" alt="Фазы планет и спутников" class="responsive-img" width="400">
+    
+    <br><br>
+    
+    <p id="phase-details">
+      <b>где φ — фазовый угол</b> — угол между лучом света, падающим от Солнца на планету, и лучом, отражённым от неё в сторону наблюдателя. Фаза объекта может принимать значения от 0 до 1. Видимая граница между освещённой и неосвещённой частями поверхности объекта называется терминатором. В терминаторной зоне для наблюдателя источник пересекает горизонт.
+    </p>
+    
+    <br>
+    
+    <!-- Navigation Buttons Block 1: Link Navigation -->
+    <div class="navigation-buttons">
+      <a id="back-link" href="index.html" class="nav-button">На главную</a>
+      <a id="next-link" href="index8.html" class="nav-button">Следующая страница</a>
+    </div>
+    
+    <!-- Navigation Buttons Block 2: Go Back Button -->
+    <div class="navigation-buttons">
+      <button onclick="history.back()" class="nav-button" id="back-button"></button>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Astrad</p>
+  </footer>
+</body>
+</html>

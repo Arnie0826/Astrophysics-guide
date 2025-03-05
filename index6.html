@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Таблица постоянных</title>
+  <link rel="stylesheet" href="Style/style2.css">
+  <script src="language6.js" defer></script>
+</head>
+<body onload="changeLanguage('ru')">
+  <!-- Header -->
+  <header>
+    <h1 id="page-heading">Таблица постоянных</h1>
+  </header>
+  
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button onclick="changeLanguage('kk')">🇰🇿 Қазақша</button>
+    <button onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+    <button onclick="changeLanguage('en')">🇬🇧 English</button>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <table align="center" border="1" id="constants-table">
+      <thead>
+        <tr>
+          <th id="th-planet">Планета</th>
+          <th id="th-mass">Масса [кг]</th>
+          <th id="th-semiMajor">Большая полуось</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Земля</td>
+          <td>6*10<sup>24</sup></td>
+          <td>1 а.е.</td>
+        </tr>
+        <tr>
+          <td>Венера</td>
+          <td>4,87*10<sup>24</sup></td>
+          <td>0,723 а.е.</td>
+        </tr>
+        <tr>
+          <td>Марс</td>
+          <td>6,42*10<sup>23</sup></td>
+          <td>1,524 а.е.</td>
+        </tr>
+        <tr>
+          <td>Меркурий</td>
+          <td>3,33*10<sup>23</sup></td>
+          <td>0,387 а.е.</td>
+        </tr>
+        <tr>
+          <td>Юпитер</td>
+          <td>1,9*10<sup>27</sup></td>
+          <td>5,2 а.е.</td>
+        </tr>
+      </tbody>
+    </table>
+    
+    <br>
+    
+    <!-- Navigation Buttons Block 1: Link Navigation -->
+    <div class="navigation-buttons">
+      <a id="back-link" href="index.html" class="nav-button">На главную</a>
+      <a id="next-link" href="index7.html" class="nav-button">Следующая страница</a>
+    </div>
+    
+    <!-- Navigation Buttons Block 2: Go Back Button -->
+    <div class="navigation-buttons">
+      <button onclick="history.back()" class="nav-button" id="back-button">Назад</button>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Astrad</p>
+  </footer>
+</body>
+</html>

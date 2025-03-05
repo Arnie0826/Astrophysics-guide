@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Материалы</title>
+  <link rel="stylesheet" href="Style/style2.css">
+  <script src="language8.js" defer></script>
+  <style>
+    button {
+      font-size: 25px; /* Размер кнопки */
+    }
+  </style>
+</head>
+<body onload="changeLanguage('ru')">
+  <!-- Header -->
+  <header>
+    <h1 id="page-heading">Материалы</h1>
+  </header>
+  
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button onclick="changeLanguage('kk')">🇰🇿 Қазақша</button>
+    <button onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+    <button onclick="changeLanguage('en')">🇬🇧 English</button>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <p id="material-text">Материалы:</p>
+    <p>
+      <a id="syllabus-link" href="https://www.ioaastrophysics.org/syllabus">
+        <button>Syllabus</button>
+      </a>
+    </p>
+    <p>
+      <a id="video-link" href="https://www.youtube.com/watch?v=sr9WRkID-78">
+        <button>Video</button>
+      </a>
+    </p>
+    <video id="material-video" src="Image/Кеплер.mp4" width="900" controls></video>
+    
+    <br><br><br><br>
+    
+    <!-- Navigation Buttons Block 1: Link Navigation -->
+    <div class="navigation-buttons">
+      <a id="back-link" href="index.html" class="nav-button">На главную</a>
+      <!-- You can add a next-page link here if needed -->
+    </div>
+    
+    <!-- Navigation Buttons Block 2: Go Back Button -->
+    <div class="navigation-buttons">
+      <button onclick="history.back()" class="nav-button" id="back-button"></button>
+    </div>
+  </main>
+  
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Astrad</p>
+  </footer>
+</body>
+</html>

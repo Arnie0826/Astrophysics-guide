@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astrad - Astronomy Guide</title>
+  <!-- Link to your CSS file -->
+  <link rel="stylesheet" href="Style/style.css">
+  <!-- Link to your JS file for translations and mode toggles -->
+  <script src="language.js" defer></script>
+</head>
+<body>
+  <!-- Header Section -->
+  <header>
+    <h1 id="title">АСТРАДЬ <br> КРАТКИЙ СБОРНИК ФОРМУЛ ПО АСТРОФИЗИКЕ</h1>
+    <img src="Image/Screenshot 2023-12-06 at 6.00.16 pm.png" alt="Astronomy Image" style="width:300px;">
+    
+    <!-- Language Switcher: Kazakh, Russian, English -->
+    <div class="language-switcher">
+      <button onclick="changeLanguage('kk')">🇰🇿 Қазақша</button>
+      <button onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+      <button onclick="changeLanguage('en')">🇬🇧 English</button>
+    </div>
+    
+    <!-- Mode Switcher: Dark and Light -->
+    <div class="mode-switcher">
+      <button id="darkModeBtn" class="dark-mode-btn" onclick="toggleDarkMode()">🌙 Dark Mode</button>
+      <button id="lightModeBtn" class="light-mode-btn" onclick="disableDarkMode()">☀️ Light Mode</button>
+    </div>
+  </header>
+
+  <!-- Navigation Bar (Only "Главная" to avoid duplication) -->
+  <nav>
+    <ul>
+      <li><a href="index.html" id="nav-home">🏠 Главная</a></li>
+    </ul>
+  </nav>
+
+  <!-- Main Content: Single Column of Topics -->
+  <main>
+    <h2 id="subtitle">Разделы астрономии</h2>
+    <div class="topic-list">
+      <a href="index2.html" id="topic1">Расстояние и размеры</a>
+      <a href="index3.html" id="topic2">Закон всемирного тяготения</a>
+      <a href="index4.html" id="topic3">Закон сохранения энергии</a>
+      <a href="index5.html" id="topic4">Законы Кеплера</a>
+      <a href="index6.html" id="topic5">Таблица постоянных</a>
+      <a href="index7.html" id="topic6">Фазы планет и спутников</a>
+      <a href="index8.html" id="topic7">Материалы</a>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Astrad. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>

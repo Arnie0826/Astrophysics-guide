@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title id="page-title">Расстояние и размеры</title>
+  <link rel="stylesheet" href="Style/style2.css">
+  <script src="language2.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 id="page-heading">Расстояние и размеры</h1>
+  </header>
+  
+  <!-- Language Switcher -->
+  <div class="language-switcher">
+    <button onclick="changeLanguage('kk')">🇰🇿 Қазақша</button>
+    <button onclick="changeLanguage('ru')">🇷🇺 Русский</button>
+    <button onclick="changeLanguage('en')">🇬🇧 English</button>
+  </div>
+  
+  <!-- Main Content -->
+  <main>
+    <p id="description">
+      <b id="unit-title">Астрономическая единица</b> - единица измерения расстояния в астрономии, равная большой полуоси орбиты Земли.<br>
+      1 а.е. = 149 597 870 70 м ~ 5.1x10¹ м (1.1)<br><br>
+      <b id="parallax-title">Годичный параллакс</b> объекта - это угол, под которым видно орбиту Земли из окрестностей данного объекта. Применяется к объектам вне Солнечной системы.
+    </p>
+    
+    <img id="img1" src="Image/Screenshot 2023-12-04 at 2.23.10 am.png" alt="Image 1" class="responsive-img">
+    
+    <p id="more-text">
+      где а - большая полуось орбиты Земли и r - расстояние до объекта имеют одинаковые единицы измерений. Учитывая малость угла п можно считать sin n = r в (1.2), тогда
+    </p>
+    
+    <img id="img2" src="Image/Screenshot 2023-12-04 at 2.35.34 am.png" alt="Image 2" class="responsive-img">
+    <img id="img3" src="Image/Screenshot 2023-12-04 at 2.37.50 am.png" alt="Image 3" class="responsive-img">
+    <img id="img4" src="Image/Screenshot 2023-12-04 at 2.38.00 am.png" alt="Image 4" class="responsive-img">
+    
+    <p id="parallax-desc">
+      <b>Горизонтальный параллакс (р)</b> - это угол, под которым виден радиус Земли (или R) для наблюдателя в центре объекта, когда последний находится на горизонте:
+    </p>
+    
+    <img id="img5" src="Image/Screenshot 2023-12-04 at 2.46.31 am.png" alt="Image 5" class="responsive-img">
+    
+    <!-- Navigation Buttons -->
+    <div class="navigation-buttons">
+      <a id="back-link" href="index.html" class="nav-button">На главную</a>
+      <a id="next-link" href="index3.html" class="nav-button">Следующая страница</a>
+    </div>
+    <div class="navigation-buttons">
+        <button onclick="history.back()" class="nav-button" id="back-button">Назад</button>
+      </div>
+  </main>
+  
+  <footer>
+    <p>&copy; 2024 Astrad</p>
+  </footer>
+</body>
+</html>
